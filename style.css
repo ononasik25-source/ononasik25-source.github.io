@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+background-color: #DCD3B6;
+font-family: sans-serif;
+display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+header{
+background-color:  #C9A66B;
+margin: 0 0 0;
+top: 0;
+width: 100%;
+display: flex;
+align-items: center;
+height: 70px;
+position: fixed;
+}
+
+header>img{
+width: 50px;
+height: 50px;
+border-radius: 100%;
+margin: 10px 20px;
+}
+
+header>p{
+font-family: "Great Vibes", cursive;
+font-weight: 800;
+font-style: normal;
+
+}
+
+header>a{
+padding: 10px 15px;
+background-color: #a16730;
+border-radius: 10px;
+text-decoration: none;
+color: #DCD3B6;
+justify-content: flex-end;
+}
+
+
+
+
+nav>a{
+text-decoration: none;
+color: #DCD3B6;
+padding: 10px 15px;
+background-color: #a16730;
+border-radius: 50px;
+margin: 30px;
+justify-content: space-between;
+}
+
+.www{
+text-align: center;
+height: 160px;
+}
+
+div{
+border-radius: 40px;
+text-align: left;
+background-color: #C9A66B;
+padding: 2% 2%;
+margin: 5% 5%;
+height: 150px;
+}
+
+div>p{
+display:flex;
+width: 50%;
+}
+
+div>img{
+display: inline-block;
+}
+
+
+
+
+
+footer{
+background-color: #C9A66B;
+width: 100%;
+height: 200px;
+    margin-top: auto;
+}
